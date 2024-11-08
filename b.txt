@@ -1,0 +1,47 @@
+base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ ls
+a.c  README.md
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git init
+Reinitialized existing Git repository in /home/student/Desktop/4AD23CI026/4AD23CI026/.git/
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ ls
+a.c  README.md
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git remote add origin "https://github.com/maanyaks/4AD23CI026.git"
+fatal: remote origin already exists.
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git remote set-url origin "https://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@github.com/maanyaks/4AD23CI026.git"
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ ls
+a.c  README.md
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git push origin main
+Counting objects: 3, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 272 bytes | 272.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/maanyaks/4AD23CI026.git
+   3a8f6db..9445a4f  main -> main
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$  git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git log
+commit 9445a4f632d529631f00df55a5d34898708997ba (HEAD -> main, origin/main, origin/HEAD)
+Author: Thejashwini <students@atme.edu.in>
+Date:   Fri Nov 8 14:36:31 2024 +0530
+
+    hello
+
+commit 3a8f6dbad312ecab06157d2468eb2d7948eb88dc
+Author: maanyaks <maaanya05@gmail.com>
+Date:   Fri Nov 8 14:18:54 2024 +0530
+
+    Initial commit
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git branch aiml
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git branch
+  aiml
+* main
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git checkout aiml
+Switched to branch 'aiml'
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ git branch
+* aiml
+  main
+(base) student@atme-HP-280-Pro-G6-Microtower-PC:~/Desktop/4AD23CI026/4AD23CI026$ gedit b.txt
+
